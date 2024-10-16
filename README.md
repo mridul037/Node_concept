@@ -6,7 +6,8 @@ We'll compare two approaches: one without Worker Threads (synchronous) and one u
 version runs the factorial calculation synchronously, which can block the server:
 
 ```
-Run this server: node syncServer.js.
+Run this server: node index
+.js.
 Open your browser and navigate to http://localhost:3000/?number=300000.
 While waiting for the result, try navigating to another number quickly (like http://localhost:3000/?number=250000). You might notice delays, especially for larger numbers.
 ```
